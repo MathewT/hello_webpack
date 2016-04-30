@@ -15,5 +15,7 @@ Here's my development environment:
 >  * npm 2.11.3
 >  * various npm packages specified later
 
+```bash
+npm install webpack --save-dev
 
 
