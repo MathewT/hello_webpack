@@ -42,11 +42,12 @@ Install Webpack
 ---------------
 When installing Webpack (or any other npm package), you can install globally or locally.  Installing npm packages locally means that packages are installed only in the current project folder, hello-webpack in this case, and are not intended for other apps.  **__I recommend installing npm packages locally as it gives you the freedom to use different versions of packages in different projects.__**
 
-Now let's install Webpack in our local project:
+Now let's install Webpack in our local project.  Here is the command:
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ npm install webpack --save-dev
 ~~~
 
+When you run this command, you'll see output similar to this:
 ~~~bash
 mthomas@ubuntu:~/apps/hello-webpack$ npm install webpack --save-dev
 npm WARN optional dep failed, continuing fsevents@1.0.12
