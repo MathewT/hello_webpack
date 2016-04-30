@@ -1,5 +1,5 @@
 # hello_webpack
-Learning webpack basics.
+Learning Webpack basics.
 
 [![Webpack](https://webpack.github.io/assets/what-is-webpack.png)](https://webpack.github.io/)
 
@@ -37,6 +37,7 @@ If npm is installed properly you will see output like this:
   mthomas@ubuntu:~/apps/hello-webpack$ npm -v
   2.11.3
 ~~~
+If you get an error, check the ![NPM](https://www.npmjs.com/) documentation and installation guide for help.
 
 
 
