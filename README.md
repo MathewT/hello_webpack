@@ -125,3 +125,12 @@ and...
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ mkdir js
 ~~~
+Let's add/edit the file js/first.js
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ vim js/first.js
+~~~
+Add the following line to the very top of js/first.js
+~~~javascript
+  document.write("hello first.js");
+~~~
+The save and close js/first.js.
