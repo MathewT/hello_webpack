@@ -142,6 +142,16 @@ Now we will use our local Webpack installation to 'compile' js/first.js.  The ou
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ ./node_modules/.bin/webpack ./js/first.js  bundle.js
 ~~~
+You should see an output like this:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ ./node_modules/.bin/webpack ./js/first.js  bundle.js 
+Hash: a0c52be0b7efa554daec
+Version: webpack 1.13.0
+Time: 37ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  1.51 kB       0  [emitted]  main
+   [0] ./js/first.js 125 bytes {0} [built]
+~~~
 Create and edit css/style.css
 ---------------------------
 ~~~bash
