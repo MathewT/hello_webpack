@@ -101,4 +101,17 @@ mthomas@ubuntu:~/apps/hello-webpack$ npm install style-loader --save-dev
 style-loader@0.13.1 node_modules/style-loader
 └── loader-utils@0.2.14 (object-assign@4.0.1, big.js@3.1.3, json5@0.5.0, emojis-list@1.0.1)
 ~~~
-
+Let's take a quick look around at what we've installed.  A quick directory listing shows that a newly created node modules folder:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ ls -lF
+total 24
+drwxrwxr-x 6 mthomas mthomas 4096 Apr 30 15:13 node_modules/
+~~~
+Looking inside that folder we see the npm packages we've installed:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ ls -lF node_modules/
+total 12
+drwxrwxr-x 4 mthomas mthomas 4096 Apr 30 15:08 css-loader/
+drwxrwxr-x 3 mthomas mthomas 4096 Apr 30 15:13 style-loader/
+drwxrwxr-x 8 mthomas mthomas 4096 Apr 30 14:57 webpack/
+~~~
