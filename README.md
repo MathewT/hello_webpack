@@ -91,5 +91,10 @@ css-loader@0.23.1 node_modules/css-loader
 ├── postcss@5.0.19 (js-base64@2.1.9, supports-color@3.1.2, source-map@0.5.5)
 └── cssnano@3.5.2 (decamelize@1.2.0, postcss-normalize-charset@1.1.0, postcss-discard-empty@2.1.0, indexes-of@1.0.1, postcss-discard-duplicates@2.0.1, postcss-minify-gradients@1.0.1, postcss-reduce-transforms@1.0.3, postcss-convert-values@2.3.4, postcss-reduce-idents@2.3.0, defined@1.0.0, postcss-merge-rules@2.0.8, postcss-discard-comments@2.0.4, postcss-ordered-values@2.1.0, postcss-value-parser@3.3.0, postcss-minify-font-values@1.0.3, postcss-zindex@2.1.1, postcss-unique-selectors@2.0.2, postcss-minify-params@1.0.4, postcss-merge-longhand@2.0.1, postcss-filter-plugins@2.0.0, postcss-merge-idents@2.1.5, postcss-discard-unused@2.2.1, postcss-calc@5.2.1, postcss-minify-selectors@2.0.4, postcss-normalize-url@3.0.7, postcss-colormin@2.2.0, autoprefixer@6.3.6, postcss-svgo@2.1.3)
 ~~~
-
+Now let's install style-loader:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ npm install style-loader --save-dev
+style-loader@0.13.1 node_modules/style-loader
+└── loader-utils@0.2.14 (object-assign@4.0.1, big.js@3.1.3, json5@0.5.0, emojis-list@1.0.1)
+~~~
 
