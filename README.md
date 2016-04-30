@@ -17,12 +17,27 @@ Here's my development environment:
 
 Let's get started!
 
-Create an app folder.
+Create an app folder
 ---------------------
 From a shell prompt (I use bash), create a new folder:
 ~~~bash
   mkdir hello-webpack
 ~~~
+Then cd into that folder:
+~~~bash
+  cd hello-webpack
+~~~
+Next, check to make sure you have npm installed:
+~~~bash
+  npm -v
+~~~
+If npm is installed properly you will see output like this:
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ npm -v
+  2.11.3
+~~~
+
+
 
 ~~~bash
 npm install webpack --save-dev
