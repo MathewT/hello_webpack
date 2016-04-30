@@ -237,6 +237,7 @@ Add the following html to index.html:
 Save and close index.html and open in a browser:
 ![browser view](images/index-view.JPG)
 **Success!**
+Next, let's add a very simple css style sheet to out app.
 Create and edit css/style.css
 ---------------------------
 ~~~bash
@@ -244,3 +245,7 @@ Create and edit css/style.css
 ~~~
 Add the following code to css/style.css:
 ~~~css
+body {
+    background: green;
+}
+~~~
