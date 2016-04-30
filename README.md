@@ -27,7 +27,8 @@ Then cd into that folder:
 ~~~bash
   cd hello-webpack
 ~~~
-Next, check to make sure you have npm installed:
+Verify npm is properly installed
+--------------------------------
 ~~~bash
   npm -v
 ~~~
