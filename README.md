@@ -38,10 +38,10 @@ If npm is installed properly you will see output like this:
   2.11.3
 ~~~
 If you get an error, check the [NPM](https://www.npmjs.com/) documentation and installation guide for help.
-
-
-
+Install Webpack
+---------------
+When installing Webpack (or any other npm package), you can install globally or locally.  Installing npm packages locally means that packages are installed only in the current project folder, hello-webpack in this case, and are not intended for other apps.  **__I recommend installing npm packages locally as it gives you the freedom to use different versions of packages in different projects.__**
 ~~~bash
-npm install webpack --save-dev
+  mthomas@ubuntu:~/apps/hello-webpack$ npm install webpack --save-dev
 ~~~
 
