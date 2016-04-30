@@ -37,7 +37,7 @@ If npm is installed properly you will see output like this:
   mthomas@ubuntu:~/apps/hello-webpack$ npm -v
   2.11.3
 ~~~
-If you get an error, check the ![NPM](https://www.npmjs.com/) documentation and installation guide for help.
+If you get an error, check the [NPM](https://www.npmjs.com/) documentation and installation guide for help.
 
 
 
