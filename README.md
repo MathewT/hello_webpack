@@ -15,6 +15,15 @@ Here's my development environment:
 >  * npm 2.11.3
 >  * various npm packages specified later
 
+Let's get started!
+
+Create an app folder.
+---------------------
+From a shell prompt (I use bash), create a new folder:
+~~~bash
+  mkdir hello-webpack
+~~~
+
 ~~~bash
 npm install webpack --save-dev
 ~~~
