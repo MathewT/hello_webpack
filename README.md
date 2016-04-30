@@ -216,6 +216,24 @@ Looking inside bundle.js, you will see the compiled Javascript, including the co
 /***/ }
 /******/ ]);
 ~~~
+Now let's create a quick index.html file to test our new bundle.js.
+Create/edit index.html
+----------------------
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ vim index.html
+~~~
+Add the following html to index.html:
+~~~html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>
+~~~
 
 Create and edit css/style.css
 ---------------------------
