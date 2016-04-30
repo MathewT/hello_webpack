@@ -72,9 +72,12 @@ _For now, we can safely ignore the warning at the top about the fsevents depende
 Install css-loader and style-loader npm packages
 ------------------------------------------------
 In order to get our basic app working properly, we will need a couple of _loader_ packages.   Let's install them now:
-
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ npm install css-loader --save-dev
+~~~
+The output will look like this:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ npm install css-loader --save-dev
 css-loader@0.23.1 node_modules/css-loader
 ├── postcss-modules-extract-imports@1.0.0
 ├── object-assign@4.0.1
