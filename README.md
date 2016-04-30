@@ -234,7 +234,8 @@ Add the following html to index.html:
   </body>
 </html>
 ~~~
-
+Save and close index.html and open in a browser:
+(images/index-view.JPG)
 Create and edit css/style.css
 ---------------------------
 ~~~bash
