@@ -12,7 +12,7 @@ Development Environment
 
 Here's my development environment:
 >  * Ubuntu 14.04
->  * npm
+>  * npm 2.11.3
 >  * various npm packages specified later
 
 
