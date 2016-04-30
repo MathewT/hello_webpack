@@ -251,9 +251,9 @@ body {
 ~~~
 Add css/style.css to bundle.js
 ------------------------------
-We want Weback to add css/style.css to bundle.js so the style contents can be applied to index.html.  Edit **js/first.js**, comment out the previous line of code and add the require statement below.
+We want Weback to add css/style.css to bundle.js so the style contents can be applied to index.html.  Edit **js/first.js**, and add the require statement below.
 ~~~javascript
-// document.write("hello first.js");
+document.write("hello first.js");
 require("!style!css!../css/style.css");
 ~~~
 Save and close js/first.js.
@@ -263,3 +263,5 @@ Recompile first.js
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ ./node_modules/.bin/webpack ./js/first.js  bundle.js
 ~~~
+Now open/refresh your browser page with index.html and you should see our same text but with a green background:
+![browser view green](images/index-view-green.JPG)
