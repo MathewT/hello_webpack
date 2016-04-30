@@ -94,6 +94,10 @@ css-loader@0.23.1 node_modules/css-loader
 Now let's install style-loader:
 ~~~bash
 mthomas@ubuntu:~/apps/hello-webpack$ npm install style-loader --save-dev
+~~~
+Here's the output:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ npm install style-loader --save-dev
 style-loader@0.13.1 node_modules/style-loader
 └── loader-utils@0.2.14 (object-assign@4.0.1, big.js@3.1.3, json5@0.5.0, emojis-list@1.0.1)
 ~~~
