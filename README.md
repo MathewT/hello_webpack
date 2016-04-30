@@ -115,3 +115,13 @@ drwxrwxr-x 4 mthomas mthomas 4096 Apr 30 15:08 css-loader/
 drwxrwxr-x 3 mthomas mthomas 4096 Apr 30 15:13 style-loader/
 drwxrwxr-x 8 mthomas mthomas 4096 Apr 30 14:57 webpack/
 ~~~
+The basic requirements for our hello_webpack app are now in place.  Let's build it!
+Make /js and /css folders
+-------------------------
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ mkdir css
+~~~
+and...
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ mkdir js
+~~~
