@@ -69,3 +69,24 @@ webpack@1.13.0 node_modules/webpack
 └── node-libs-browser@0.5.3 (https-browserify@0.0.0, tty-browserify@0.0.0, constants-browserify@0.0.1, path-browserify@0.0.0, os-browserify@0.1.2, string_decoder@0.10.31, process@0.11.2, punycode@1.4.1, querystring-es3@0.2.1, assert@1.3.0, timers-browserify@1.4.2, domain-browser@1.1.7, events@1.1.0, vm-browserify@0.0.4, util@0.10.3, stream-browserify@1.0.0, console-browserify@1.1.0, http-browserify@1.7.0, readable-stream@1.1.14, url@0.10.3, buffer@3.6.0, browserify-zlib@0.1.4, crypto-browserify@3.2.8)
 ~~~
 _For now, we can safely ignore the warning at the top about the fsevents dependency._  The installation succeded and installed Webpack plus numerous core dependencies.
+Install css-loader and style-loader npm packages
+------------------------------------------------
+In order to get our basic app working properly, we will need a couple of _loader_ packages.   Let's install them now:
+
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ npm install css-loader --save-dev
+css-loader@0.23.1 node_modules/css-loader
+├── postcss-modules-extract-imports@1.0.0
+├── object-assign@4.0.1
+├── postcss-modules-scope@1.0.0
+├── postcss-modules-local-by-default@1.0.1
+├── postcss-modules-values@1.1.2 (icss-replace-symbols@1.0.2)
+├── css-selector-tokenizer@0.5.4 (fastparse@1.1.1, cssesc@0.1.0)
+├── loader-utils@0.2.14 (big.js@3.1.3, json5@0.5.0, emojis-list@1.0.1)
+├── source-list-map@0.1.6
+├── lodash.camelcase@3.0.1 (lodash._createcompounder@3.0.0)
+├── postcss@5.0.19 (js-base64@2.1.9, supports-color@3.1.2, source-map@0.5.5)
+└── cssnano@3.5.2 (decamelize@1.2.0, postcss-normalize-charset@1.1.0, postcss-discard-empty@2.1.0, indexes-of@1.0.1, postcss-discard-duplicates@2.0.1, postcss-minify-gradients@1.0.1, postcss-reduce-transforms@1.0.3, postcss-convert-values@2.3.4, postcss-reduce-idents@2.3.0, defined@1.0.0, postcss-merge-rules@2.0.8, postcss-discard-comments@2.0.4, postcss-ordered-values@2.1.0, postcss-value-parser@3.3.0, postcss-minify-font-values@1.0.3, postcss-zindex@2.1.1, postcss-unique-selectors@2.0.2, postcss-minify-params@1.0.4, postcss-merge-longhand@2.0.1, postcss-filter-plugins@2.0.0, postcss-merge-idents@2.1.5, postcss-discard-unused@2.2.1, postcss-calc@5.2.1, postcss-minify-selectors@2.0.4, postcss-normalize-url@3.0.7, postcss-colormin@2.2.0, autoprefixer@6.3.6, postcss-svgo@2.1.3)
+~~~
+
+
