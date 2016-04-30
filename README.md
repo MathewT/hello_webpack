@@ -265,3 +265,5 @@ Recompile first.js
 ~~~
 Now open/refresh your browser page with index.html and you should see our same text but with a green background:
 ![browser view green](images/index-view-green.JPG)
+
+And we're done!
