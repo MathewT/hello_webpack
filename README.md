@@ -125,6 +125,8 @@ and...
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ mkdir js
 ~~~
+Create and edit js/first.js
+---------------------------
 Let's add/edit the file js/first.js
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ vim js/first.js
@@ -134,3 +136,16 @@ Add the following line to the very top of js/first.js
   document.write("hello first.js");
 ~~~
 The save and close js/first.js.
+Use Webpack to Build bundle.js
+------------------------------
+Now we will use our local Webpack installation to 'compile' js/first.js.  The output of the compilation will create bundle.js.
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ ./node_modules/.bin/webpack ./js/first.js  bundle.js
+~~~
+Create and edit css/style.css
+---------------------------
+~~~bash
+  mthomas@ubuntu:~/apps/hello-webpack$ vim css/style.css
+~~~
+Add the following code to css/style.css:
+~~~css
