@@ -243,9 +243,16 @@ Create and edit css/style.css
 ~~~bash
   mthomas@ubuntu:~/apps/hello-webpack$ vim css/style.css
 ~~~
-Add the following code to css/style.css:
+Add the following code to css/style.css and save.
 ~~~css
 body {
     background: green;
 }
+~~~
+Add css/style.css to bundle.js
+------------------------------
+We want Weback to add css/style.css to bundle.js so the style contents can be applied to index.html.  Edit js/first.js, comment out the previous line of code and add the require statement below.
+~~~javascript
+// document.write("hello first.js");
+require("!style!css!../css/style.css");
 ~~~
