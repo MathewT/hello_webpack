@@ -152,6 +152,16 @@ Time: 37ms
 bundle.js  1.51 kB       0  [emitted]  main
    [0] ./js/first.js 125 bytes {0} [built]
 ~~~
+You should now see bundle.js in your app folder like this:
+~~~bash
+mthomas@ubuntu:~/apps/hello-webpack$ ls -lF
+total 28
+-rw-rw-r-- 1 mthomas mthomas 1515 Apr 30 15:54 bundle.js
+drwxrwxr-x 2 mthomas mthomas 4096 Apr 30 12:24 css/
+drwxrwxr-x 2 mthomas mthomas 4096 Apr 30 13:34 js/
+drwxrwxr-x 6 mthomas mthomas 4096 Apr 30 15:13 node_modules/
+~~~
+
 Create and edit css/style.css
 ---------------------------
 ~~~bash
